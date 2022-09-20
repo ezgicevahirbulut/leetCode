@@ -8,5 +8,3 @@ class Solution:
                     LIS[i] = max(LIS[i], 1 + LIS[j])
         
         return max(LIS)
-        
-       
